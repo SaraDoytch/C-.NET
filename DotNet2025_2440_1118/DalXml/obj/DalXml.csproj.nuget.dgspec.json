@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj": {}
+    "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj": {}
   },
   "projects": {
-    "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj",
+        "projectPath": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalXml\\DalXml.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalXml\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "D:\\שרי דויטש\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\משתמש\\Desktop\\DotNet2025_2440_1118\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -113,9 +113,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

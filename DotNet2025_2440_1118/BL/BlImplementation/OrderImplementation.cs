@@ -84,9 +84,9 @@ namespace BlImplementation
             var update = order.productInOrder.Select(p =>
             {
                 var x = dal.Product.Read(p.productId);
-                if (x.AmountOfStack < p.AmountOfOrder)
+                if (x.InStock < p.AmountOfOrder)
                     throw new Exception("אין מספיק מלאי למוצר");
-                return x with { AmountOfStack = x.AmountOfStack - p.AmountOfOrder };
+                return x with { InStock = x.InStock - p.AmountOfOrder };
             }).ToList();
             foreach (var x in update)
             {

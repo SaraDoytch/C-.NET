@@ -33,8 +33,6 @@ namespace UI
             ProductFilterbutton1 = new Button();
             ProductFiltercomboBox1 = new ComboBox();
             UpdateProductpanel = new Panel();
-            ProducrIdlabel2 = new Label();
-            label1 = new Label();
             UpdateProductbutton = new Button();
             ProductPricelabel7 = new Label();
             UpdateProductPricetrackBar = new TrackBar();
@@ -63,6 +61,8 @@ namespace UI
             ProdectShowAllBtn = new Button();
             ProductShowBtn = new Button();
             ProdectDataGridView = new DataGridView();
+            label1 = new Label();
+            ProducrIdlabel2 = new Label();
             UpdateProductpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)UpdateProductPricetrackBar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)UpdateProductAmountnumericUpDown).BeginInit();
@@ -106,28 +106,11 @@ namespace UI
             UpdateProductpanel.Controls.Add(label9);
             UpdateProductpanel.Controls.Add(label10);
             UpdateProductpanel.Controls.Add(label11);
-            UpdateProductpanel.Location = new Point(263, 18);
+            UpdateProductpanel.Location = new Point(51, 23);
             UpdateProductpanel.Name = "UpdateProductpanel";
             UpdateProductpanel.Size = new Size(329, 273);
             UpdateProductpanel.TabIndex = 38;
             UpdateProductpanel.Visible = false;
-            // 
-            // ProducrIdlabel2
-            // 
-            ProducrIdlabel2.AutoSize = true;
-            ProducrIdlabel2.Location = new Point(142, 27);
-            ProducrIdlabel2.Name = "ProducrIdlabel2";
-            ProducrIdlabel2.Size = new Size(0, 20);
-            ProducrIdlabel2.TabIndex = 13;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(223, 28);
-            label1.Name = "label1";
-            label1.Size = new Size(65, 20);
-            label1.TabIndex = 12;
-            label1.Text = "קוד מוצר";
             // 
             // UpdateProductbutton
             // 
@@ -233,7 +216,6 @@ namespace UI
             // 
             ProductPanel.Controls.Add(AddProducrbutton);
             ProductPanel.Controls.Add(ProductPriceLabel);
-            ProductPanel.Controls.Add(UpdateProductpanel);
             ProductPanel.Controls.Add(trackBar1);
             ProductPanel.Controls.Add(ProducrAmountnumericUpDown);
             ProductPanel.Controls.Add(ProductNaneTextBox);
@@ -397,6 +379,23 @@ namespace UI
             ProdectDataGridView.Size = new Size(451, 247);
             ProdectDataGridView.TabIndex = 30;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(223, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(65, 20);
+            label1.TabIndex = 12;
+            label1.Text = "קוד מוצר";
+            // 
+            // ProducrIdlabel2
+            // 
+            ProducrIdlabel2.AutoSize = true;
+            ProducrIdlabel2.Location = new Point(142, 27);
+            ProducrIdlabel2.Name = "ProducrIdlabel2";
+            ProducrIdlabel2.Size = new Size(0, 20);
+            ProducrIdlabel2.TabIndex = 13;
+            // 
             // ProductPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -406,6 +405,7 @@ namespace UI
             ClientSize = new Size(821, 509);
             Controls.Add(ProductFilterbutton1);
             Controls.Add(ProductFiltercomboBox1);
+            Controls.Add(UpdateProductpanel);
             Controls.Add(returnBtn2);
             Controls.Add(ProductPanel);
             Controls.Add(ProdectDeletedBtn);

@@ -4,10 +4,11 @@ namespace DO;
 [Serializable]
 public class DalIdNotExist : Exception
 {
-    public DalIdNotExist(string e) : base(e) { }
+    public DalIdNotExist(string message) : base(message) { }
 }
+
 [Serializable]
 public class DalIdAlreadyExist : Exception
 {
-    public DalIdAlreadyExist(string e) : base() { }
+    public DalIdAlreadyExist(string message) : base(message) { }
 }

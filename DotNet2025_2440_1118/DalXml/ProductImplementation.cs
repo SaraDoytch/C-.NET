@@ -35,10 +35,10 @@ namespace Dal
             {
                 products = serializer.Deserialize(sr) as List<Product>;
             }
-            if (item.Barcode == 0)
+            if (item.Id == 0)
             {
                 int code = Config.ProductCurrentCode;
-                products.Add(item with { Barcode = code });
+                products.Add(item with { Id = code });
             }
             else
             {
@@ -48,7 +48,7 @@ namespace Dal
             {
                 serializer.Serialize(sw, products);
             }
-            return item.Barcode;
+            return item.Id;
         }
 
         public Product Read(int id)
@@ -70,7 +70,7 @@ namespace Dal
             {
                 listProduct = serializer.Deserialize(sr) as List<Product>;
             }
-            return listProduct.FirstOrDefault(product => product.Barcode == id);
+            return listProduct.FirstOrDefault(product => product.Id == id);
 
         }
 
@@ -123,11 +123,11 @@ namespace Dal
         public void Update(Product item)
         {
          
-            Delete(item.Barcode);
+            Delete(item.Id);
             //serializer = new XmlSerializer(typeof(List<Sale>));
 
             products = ReadAll();
-            products.Add(new Product(item.Barcode, item.Name, item.Category, item.Price, item.AmountOfStack));
+            products.Add(new Product(item.Id, item.Name, item.Categoryies, item.Price, item.InStock));
 
             using (StreamWriter sw = new StreamWriter(filePath))
             {
@@ -159,7 +159,7 @@ namespace Dal
             {
                 listProduct = serializer.Deserialize(sr) as List<Product>;
             }
-            listProduct.Remove(listProduct.FirstOrDefault(product => product.Barcode == id));
+            listProduct.Remove(listProduct.FirstOrDefault(product => product.Id == id));
             using (StreamWriter sw = new StreamWriter(filePath))
             {
                 serializer.Serialize(sw, listProduct);

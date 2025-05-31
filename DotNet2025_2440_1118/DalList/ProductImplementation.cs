@@ -16,11 +16,11 @@ internal class ProductImplementation : IProduct
     //}
     public int Create(Product item)
     {
-        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "id:" + item.Barcode.ToString());
-        Product product = item with { Barcode = DataSource.Config.ProductCode };
+        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "id:" + item.Id.ToString());
+        Product product = item with { Id = DataSource.Config.ProductCode };
         DataSource.products.Add(product);
         LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "Product addition successful");
-        return product.Barcode;
+        return product.Id;
     }
     //public void Delete(int id)
     //{
@@ -68,7 +68,7 @@ internal class ProductImplementation : IProduct
 
         foreach (Product item in DataSource.products)
         {
-            if (item.Barcode == id)
+            if (item.Id == id)
             {
                 LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "\"Product readed successful\"\r\n");
                 return item;
@@ -133,8 +133,8 @@ internal class ProductImplementation : IProduct
     //}
     public void Update(Product item)
     {
-        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "id:" + item.Barcode.ToString());
-        Delete(item.Barcode);
+        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "id:" + item.Id.ToString());
+        Delete(item.Id);
         DataSource.products.Add(item);
         LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().DeclaringType.Name, "Product updated successfully");
     }

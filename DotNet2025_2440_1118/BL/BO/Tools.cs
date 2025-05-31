@@ -42,7 +42,7 @@ namespace BO
         }
         public static BO.Product Convert(this DO.Product c)
         {
-            return new BO.Product(c.Barcode,c.Name, c.Price, c.AmountOfStack, (BO.Categories)(c.Category));
+            return new BO.Product(c.Id,c.Name, c.Price, c.InStock, (BO.Categories)(c.Categoryies));
         }
         public static BO.Sale Convert(this DO.Sale c)
         {
@@ -69,7 +69,7 @@ namespace BO
         }
         public static BO.Product ConvertDOproductToBOproduct(this DO.Product product)
         {
-            return new BO.Product(product.Barcode, product.Name, product.Price, product.AmountOfStack, (BO.Categories)product.Category);
+            return new BO.Product(product.Id, product.Name, product.Price, product.InStock, (BO.Categories)product.Categoryies);
         }
         public static BO.Sale ConvertDOsaleToBOsale(this DO.Sale sale)
         {

@@ -18,10 +18,4 @@
     <Address>כלנית</Address>
     <Phone>0398745</Phone>
   </Client>
-  <Client>
-    <ClientId>100000</ClientId>
-    <ClientName>ברכי</ClientName>
-    <Address>שדרות יחזקאל 5</Address>
-    <Phone>0565848755</Phone>
-  </Client>
 </ArrayOfClient>
