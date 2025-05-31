@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sale>
+    <Id>2044</Id>
+    <ProductId>503</ProductId>
+    <RequiredAmount>3</RequiredAmount>
+    <SalePrice>15</SalePrice>
+    <IsForClubMembers>false</IsForClubMembers>
+    <StartDate>2025-05-22T02:11:13.6117926+03:00</StartDate>
+    <EndDate>2025-05-30T01:46:08.817</EndDate>
+  </Sale>
+  <Sale>
+    <Id>2045</Id>
+    <ProductId>100</ProductId>
+    <RequiredAmount>1</RequiredAmount>
+    <SalePrice>30</SalePrice>
+    <IsForClubMembers>true</IsForClubMembers>
+    <StartDate>2025-05-22T02:11:28.2516777+03:00</StartDate>
+    <EndDate>2025-05-22T02:11:28.2488914+03:00</EndDate>
+  </Sale>
+  <Sale>
+    <Id>2043</Id>
+    <ProductId>555</ProductId>
+    <RequiredAmount>14</RequiredAmount>
+    <SalePrice>11</SalePrice>
+    <IsForClubMembers>true</IsForClubMembers>
+    <StartDate>2025-05-27T21:45:38.0076201+03:00</StartDate>
+    <EndDate>2025-05-30T01:46:08.817</EndDate>
+  </Sale>
+</ArrayOfSale>

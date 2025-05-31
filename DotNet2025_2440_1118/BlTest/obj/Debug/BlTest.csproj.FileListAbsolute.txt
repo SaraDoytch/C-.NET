@@ -1,0 +1,5 @@
+D:\שרי דויטש\DotNet2025_2440_1118\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+D:\שרי דויטש\DotNet2025_2440_1118\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\שרי דויטש\DotNet2025_2440_1118\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+D:\שרי דויטש\DotNet2025_2440_1118\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache

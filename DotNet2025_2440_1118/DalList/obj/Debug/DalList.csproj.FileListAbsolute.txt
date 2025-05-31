@@ -1,0 +1,13 @@
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.AssemblyInfo.cs
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalList.deps.json
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalList.dll
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalList.pdb
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.csproj.Up2Date
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.dll
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\refint\DalList.dll
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\DalList.pdb
+D:\שרי דויטש\DotNet2025_2440_1118\DalList\obj\Debug\ref\DalList.dll

@@ -1,0 +1,11 @@
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalFacade.deps.json
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalFacade.dll
+D:\שרי דויטש\DotNet2025_2440_1118\bin\DalFacade.pdb
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.dll
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\DalFacade.pdb
+D:\שרי דויטש\DotNet2025_2440_1118\DalFacade\obj\Debug\ref\DalFacade.dll

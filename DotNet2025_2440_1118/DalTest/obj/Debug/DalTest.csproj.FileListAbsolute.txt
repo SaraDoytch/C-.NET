@@ -1,0 +1,5 @@
+D:\שרי דויטש\DotNet2025_2440_1118\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+D:\שרי דויטש\DotNet2025_2440_1118\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\שרי דויטש\DotNet2025_2440_1118\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+D:\שרי דויטש\DotNet2025_2440_1118\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+D:\שרי דויטש\DotNet2025_2440_1118\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache

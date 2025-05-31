@@ -1,0 +1,14 @@
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\bin\Debug\net8.0\DalTest.exe
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\bin\Debug\net8.0\DalTest.deps.json
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\bin\Debug\net8.0\DalTest.dll
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\bin\Debug\net8.0\DalTest.pdb
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfoInputs.cache
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfo.cs
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.csproj.CoreCompileInputs.cache
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.dll
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\refint\DalTest.dll
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.pdb
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
+D:\c#.net-project\DotNet2025_2440_1118\DalTest\obj\Debug\net8.0\ref\DalTest.dll
